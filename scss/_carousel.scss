@@ -1,0 +1,25 @@
+.carousel-inner {
+  height: 40rem;
+  overflow: hidden;
+}
+.mobilePhoto {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobilePhoto {
+    display: block;
+  }
+  .carousel {
+    display: none;
+  }
+}
+@media (max-width: 1398px) {
+  .carousel-inner {
+    height: 30rem;
+  }
+}
+@media (max-width: 992px) {
+  .carousel-inner {
+    height: 20rem;
+  }
+}

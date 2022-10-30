@@ -1,0 +1,60 @@
+@import "setup";
+@import "navBar";
+@import "faqPage";
+@import "galleryPage";
+@import "contactPage";
+@import "aboutPage";
+@import "modalWindow";
+@import "suppliersCard";
+@import "carousel";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../Pictures/bodyBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.myContainer {
+  background-color: $yellowColor;
+  box-shadow: 0px 1px 10px 3px $whiteColor;
+  border-radius: 25px;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+
+p {
+  font-size: 1rem;
+  font-family: $baseFont;
+  color: $blackColor;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -40px;
+  color: $blackColor !important;
+  font-size: 0.8rem;
+}
